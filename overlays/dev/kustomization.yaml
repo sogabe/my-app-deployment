@@ -3,3 +3,6 @@ kind: Kustomization
 namePrefix: sogabe-
 resources:
 - ../../base
+images:
+- name: gitopsworkshop/my-app
+  newTag: v2
